@@ -5,6 +5,9 @@ let sequelize;
 
 if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);
+} else if (process.env.CLEARDB_DATABASE_URL) {
+  const connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+  sequelize = new Sequelize(connection);
 } else {
   sequelize = new Sequelize(
     process.env.DB_NAME,
@@ -17,6 +20,5 @@ if (process.env.JAWSDB_URL) {
     },
   );
 }
-
 
 module.exports = sequelize;
