@@ -1,5 +1,7 @@
 # Shift Wiz
-<p align="center"><img src="./assets/images/ShiftWizGrey.png" alt="Alt text" title="Optional title" height="200"></p>
+<p align="center">
+  <img height="300" src="./assets/images/ShiftWizGrey.png">
+</p>
 
 ## Description:
 ShiftWiz is a revolutionary app designed to simplify work scheduling for small businesses. With its user-friendly interface, you can easily view your work schedule, submit requests for time off, and make modifications to your schedule with just a few clicks. No more need for cumbersome printouts or phone calls to find out when you're working next - everything you need is right at your fingertips!
@@ -18,7 +20,7 @@ Say goodbye to the headaches of traditional scheduling and embrace the convenien
 
 ## Usage:
 
-placeholder
+Visit (placeholder) to sign up and test ShiftWiz for yourself!
 
 ## Screenshot:
 ![Screenshot of Application](./assets/images/screenshot.png)
