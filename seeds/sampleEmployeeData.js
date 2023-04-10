@@ -68,13 +68,6 @@ const employeeData = [
   },
 ];
 
-const seedEmployee = async () => {
-  try {
-    await Employee.bulkCreate(employeeData);
-    console.log('Employee data seeded successfully \n');
-  } catch (error) {
-    console.error('Error seeding employee data:', error);
-  }
-};
+const seedEmployee = () => Employee.bulkCreate(employeeData);
 
 module.exports = seedEmployee;

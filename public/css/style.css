@@ -6,6 +6,10 @@ body {
   background-color: #E4E4E4;
 }
 
+.footer {
+    text-align: center;
+}
+
 .login-div, .signup-div {
   margin: 100px auto;
   width: 350px;

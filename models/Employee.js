@@ -58,7 +58,8 @@ Employee.init(
         },
         is_manager: {
             type: DataTypes.BOOLEAN,
-            allowNull: false
+            allowNull: false,
+            defaultValue: false,
         }
     },
     {
@@ -66,7 +67,7 @@ Employee.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        tableName: 'employee'
+        modelName: 'employee'
     }
 )
 
