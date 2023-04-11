@@ -85,7 +85,7 @@ body {
   margin: 10px auto;
   background-color: black;
   color: white;
-} 
+}
 
 .form-group button:hover {
   background-color: white;
@@ -465,6 +465,7 @@ nav a {
 nav a:hover {
   color: var(--light);
   background-color: var(--dark);
+  border-radius: 30px;
 }
 
 .gallery {

@@ -1,12 +1,12 @@
 <div class="splash-screen">
     <h1>Welcome to ShiftWiz!</h1>
-    <p>Our team created ShiftWiz to simplify the process of posting work schedule for you employess. Gone are the days
-        of print out schedules and wasted paper. Our goal is to make an easy to use platform for distributing employee
-        schdeules, submitting PTO/Sick days and schedule alterations.</p>
+    <p>ShiftWiz is a revolutionary app designed to simplify work scheduling for small businesses. With its user-friendly interface, you can easily view your work schedule, submit requests for time off, and make modifications to your schedule with just a few clicks. No more need for cumbersome printouts or phone calls to find out when you're working next - everything you need is right at your fingertips!</p>
 
 {{#if isLoggedIn}}
   <!-- Add content for logged in users here -->
 {{else}}
-  <a href="/login"><button class="login-button">Log in</button></a>
+<div class="form-group">
+  <a href="/login"><button class="login-button" text-decoration="none">Login</button></a>
+  </div>
 {{/if}}
 </div>
